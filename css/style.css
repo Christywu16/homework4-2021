@@ -35,6 +35,7 @@ body{
   /*Req 1*/
   font-family: 'Andika', sans-serif;
   background-image: url(../images/pigeon-background.JPEG);
+  background-repeat: no-repeat;
   background-color: #dddddd;
 }
 
@@ -133,12 +134,14 @@ tbody tr:last-child>td:last-child{
 
 /*Req 8*/
 footer{
+  /* width:100%; */
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
   position:fixed;
+  left:0;
   bottom: 0;
 }
 
